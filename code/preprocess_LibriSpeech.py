@@ -13,7 +13,7 @@ features on the 100 hour Librispeech dataset.
 
 """
 import os
-import glob
+import glob2 as glob
 import soundfile as sf
 from python_speech_features import mfcc
 import numpy as np
