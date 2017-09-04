@@ -19,6 +19,7 @@ data set, generate the TFRecord files of features and train the model.
 
 
 """
+from __future__ import division
 import json
 import os
 import math
