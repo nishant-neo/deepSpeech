@@ -123,6 +123,7 @@ def inference(predictions_op, true_labels_op, display, sess):
     actual_label = sparse_to_labels(true_labels)
     for (label, pred) in zip(actual_label, pred_label):
         char_err_rate.append(distance(label, pred)/len(label))
+        #char_err_rate.append(editdistance.eval(label, pred)/float(len(label)))
 
     if display:
         # Print sample responses
