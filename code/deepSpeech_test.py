@@ -30,6 +30,7 @@ import deepSpeech
 import numpy as np
 import tensorflow as tf
 from Levenshtein import distance
+import editdistance
 
 # Note this definition must match the ALPHABET chosen in
 # preprocess_Librispeech.py
